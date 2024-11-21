@@ -23,12 +23,20 @@
             android:layout="@layout/personalization_dashboard_layout"
             android:selectable="false"/>
 
+        <!-- Monet Theme Engine -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="monet_engine"
+            android:icon="@drawable/ic_themes"
+            android:title="@string/monet_title"
+            app:position="top"
+            android:summary="@string/monet_summary"
+            android:fragment="com.rising.settings.fragments.MonetSettings" />
+
         <!-- Notifications -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:icon="@drawable/ic_dashboard_notifications"
             android:title="@string/notifications_title"
             android:summary="@string/notif_settings_summary"
-            app:position="top"
             android:fragment="com.rising.settings.fragments.Notifications" />
 
         <!-- Status bar settings -->
