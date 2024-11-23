@@ -42,6 +42,20 @@
             android:summary="@string/notif_settings_summary"
             android:fragment="com.rising.settings.fragments.Notifications" />
 
+        <!-- Status bar settings -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:icon="@drawable/ic_settings_statusbar"
+            android:title="@string/sb_settings_title"
+            android:summary="@string/sb_settings_summary"
+            android:fragment="com.rising.settings.fragments.StatusBar" />
+
+        <!-- QuickSettings -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:icon="@drawable/ic_settings_quicksettings"
+            android:title="@string/quicksettings_title"
+            android:summary="@string/qs_settings_summary"
+            android:fragment="com.rising.settings.fragments.QuickSettings" />
+
         <!-- Sound -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:icon="@drawable/ic_cellphone_sound"

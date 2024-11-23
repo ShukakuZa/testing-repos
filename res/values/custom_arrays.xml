@@ -117,7 +117,7 @@
 
     <!-- Boot animation Styles -->
    <string-array name="boot_animation_styles_entries">
-        <item>(Default) RisingOS</item>
+        <item>(Default) MistOS</item>
         <item>CyberPunk</item>
         <item>Google</item>
         <item>Google (Monet)</item>

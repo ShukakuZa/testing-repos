@@ -21,18 +21,11 @@
     android:title="@string/toolbox_title">
 
         <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="extras"
-            android:icon="@drawable/ic_cog"
-            android:title="@string/extras_toolbox_title"
-            android:summary="@string/extras_toolbox_summary"
-            android:fragment="com.rising.settings.fragments.Extras"
-            lineage:position="top" />
-
-        <com.android.settings.preferences.ui.AdaptivePreference
             android:key="gestures"
             android:icon="@drawable/ic_settings_gestures"
             android:title="@string/gestures_title"
             android:summary="@string/gestures_title_summary"
+            lineage:position="top"
             android:fragment="com.rising.settings.fragments.Gestures" />
 
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -41,6 +34,58 @@
             android:title="@string/nav_settings_title"
             android:summary="@string/nav_settings_summary"
             android:fragment="com.rising.settings.fragments.Navigation" />
+
+       <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="ai_assistant"
+            android:icon="@drawable/ic_risa"
+            android:title="@string/ai_assistant_title"
+            android:summary="@string/ai_assistant_summary"
+            android:fragment="com.rising.settings.fragments.Assistant" />
+
+       <!-- Gaming mode -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="gaming_mode"
+            android:title="@string/gaming_mode_title"
+            android:icon="@drawable/ic_game"
+            android:summary="@string/gaming_mode_summary"
+             >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="io.chaldeaprjkt.gamespace"
+                android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+        </com.android.settings.preferences.ui.AdaptivePreference>
+
+        <!-- Pocket Judge -->
+        <com.android.settings.preferences.SecureSettingSwitchPreference
+            android:key="pocket_mode_enabled"
+            android:icon="@drawable/ic_pocket"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false"
+            />
+            
+        <com.android.settings.preferences.SecureSettingSwitchPreference
+            android:key="always_on_pocket_mode_enabled"
+            android:title="@string/always_on_pocket_mode_enabled_title"
+            android:summary="@string/always_on_pocket_mode_summary"
+            android:dependency="pocket_mode_enabled"
+            android:icon="@drawable/ic_pocket"
+            android:defaultValue="false" />
+
+        <!-- Smart Pixels -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="smart_pixels"
+            android:title="@string/smart_pixels_title" 
+            android:icon="@drawable/ic_smart_pixels"
+            android:summary="@string/smart_pixels_summary" 
+            android:fragment="com.rising.settings.fragments.ui.SmartPixels"/>
+
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="smart_power_off"
+            android:title="@string/smart_power_off_title"
+            android:icon="@drawable/ic_power"
+            android:summary="@string/smart_power_off_time_summary"
+            android:fragment="com.rising.settings.fragments.SmartPowerOff" />
 
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="security"

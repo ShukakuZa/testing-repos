@@ -124,7 +124,7 @@
     <string name="dashboard_random5">Howdy %s!</string>
     <string name="dashboard_random6">What\'s up %s?</string>
     <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
-    <string name="dashboard_random_greetings2">Rising from the bottom?</string>
+    <string name="dashboard_random_greetings2">Mist from the bottom?</string>
     <string name="dashboard_random_greetings3">Try using the search bar!</string>
     <string name="dashboard_random_greetings4">Enjoy your day!</string>
     <string name="settings_random1">Searching for something?</string>
@@ -339,10 +339,10 @@
     <string name="network_highlight_settings_summary">Setup network and internet connection</string>
     <string name="bt_highlight_settings_title">Setup connected devices</string>
     <string name="bt_highlight_settings_summary">Add, pair bluetooth, and configure device connections</string>
-    <string name="rising_settings_title">Personalize</string>
-    <string name="rising_settings_summary">Change icons, themes, and more</string>
+    <string name="rising_settings_title">Mistify</string>
+    <string name="rising_settings_summary">Infinity Exist Everywhere!!</string>
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most rising settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most mist settings to their default values for the current user. Would you like to continue?</string>
     <string name="search_homepage">Search</string>
 
     <!-- Changelog -->
@@ -361,7 +361,7 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="display_title">Display</string>
     <string name="ui_title">User Interface</string>
-    <string name="toolbox_title">Toolbox</string>
+    <string name="toolbox_title">System</string>
     <string name="toolbox_summary">System features</string>
     <string name="themes_title">Themes</string>
     <string name="themes_summary">Show your true colours</string>
@@ -372,8 +372,8 @@
     <string name="security_settings_footer_text">Note: While bypassing certain restrictions may offer convenience, it could also result in potential privacy risks.</string>
 
      <!-- Device Info screen -->
-    <string name="firmware_name_text">risingOS</string>
-    <string name="firmware_name_version">risingOS version</string>
+    <string name="firmware_name_text">MistOS</string>
+    <string name="firmware_name_version">MistOS version</string>
     <string name="firmware_build_type_title">Build type</string>
     <string name="firmware_build_summary_title">By maintainer</string>
     <string name="build_is_official_title">#Official</string>
@@ -381,7 +381,7 @@
     <string name="maintainer_summary">by %s</string>
     <string name="unknown_maintainer">unknown</string>
     <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
-    <string name="about_rising_device">Rising Device</string>
+    <string name="about_rising_device">Mist Device</string>
     <string name="device_header_info_category_title">Build type</string>
     <string name="device_info_hw_sw_more">More</string>
     <string name="device_info_security_patch">Security update</string>
@@ -398,7 +398,7 @@
 
    <!-- rising dashboard -->
     <string name="about_settings_title">About Us</string>
-    <string name="about_settings_summary">Information about RisingOS</string>
+    <string name="about_settings_summary">Information about MistOS</string>
     <string name="buttons_settings_title">Buttons</string>
     <string name="buttons_settings_summary">Tweak hardware buttons</string>
     <string name="lockscreen_settings_title">Lockscreen</string>
@@ -463,19 +463,19 @@
     <string name="default_value">Default</string>
 
     <!-- About risingOS -->
-    <string name="about_rising">About risingOS</string>
+    <string name="about_rising">About MistOS</string>
     <string name="about_device_name">Device</string>
 
     <!-- Share risingOS -->
-    <string name="share_rising_title">Share risingOS</string>
-    <string name="share_rising_summary">Let others know about risingOS</string>
-    <string name="share_message">Check out if #risingOSAndroid is available for your device @ https://rising.net/</string>
-    <string name="share_chooser_title">Share risingOS</string>
+    <string name="share_rising_title">Share MistOS</string>
+    <string name="share_rising_summary">Let others know about MistOS</string>
+    <string name="share_message">Check out if #MistOSAndroid is available for your device @ https://Mist.net/</string>
+    <string name="share_chooser_title">Share MistOS</string>
 
     <!-- Sites risingOS -->
     <string name="rising_source_title">GitHub</string>
     <string name="rising_source_summary">We love open source, check us out</string>
-    <string name="rising_telegram_title">risingOS community</string>
+    <string name="rising_telegram_title">MistOS community</string>
     <string name="rising_telegram_summary">We are on telegram. Join us!</string>
     <string name="rising_telegram_channel_title">Updates channel</string>
     <string name="rising_telegram_channel_summary">Get notified of new builds on Telegram</string>
@@ -491,7 +491,7 @@
     <!-- Donate risingOS -->
     <string name="donate_rising_title">Support us</string>
     <string name="donate_rising_summary">Donate to support further development</string>
-    <string name="donate_team_title">risingOS team</string>
+    <string name="donate_team_title">MistOS team</string>
     <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
 
     <!-- The Drill -->
@@ -1045,7 +1045,7 @@
     <string name="qs_footer_settings_icon_title">Settings shortcut</string>
 
     <!-- Device Info screen. risingOS legal. -->
-    <string name="rising_license_title">risingOS legal</string>
+    <string name="rising_license_title">MistOS legal</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Brightness slider</string>
@@ -1559,7 +1559,7 @@
     <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
     <string name="status_bar_logo_position_title">Logo position</string>
     <string name="status_bar_logo_style_title">Logo style</string>
-    <string name="status_bar_logo_style_rising">risingOS</string>
+    <string name="status_bar_logo_style_rising">MistOS</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>
