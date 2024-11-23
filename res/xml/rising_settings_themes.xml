@@ -70,14 +70,6 @@
             android:summary="@string/theme_customization_navbar_summary"
             android:fragment="com.rising.settings.fragments.ui.NavbarStyles"/>
 
-        <!-- Settings UI -->
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="settings_ui"
-            android:icon="@drawable/ic_settings_ui"
-            android:title="@string/settings_ui_title"
-            android:summary="@string/settings_ui_summary"
-            android:fragment="com.rising.settings.fragments.ui.Settings"/>
-
         <!-- Signal icon style -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.signal_icon"
@@ -117,6 +109,13 @@
             android:summary="@string/wallpaper_blur_summary"
             android:defaultValue="false"
             lineage:position="top" />
+
+        <!-- Settings dashboard greetings -->
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="dashboard_greetings"
+            android:title="@string/dashboard_greetings_title"
+            android:summary="@string/dashboard_greetings_summary"
+            android:defaultValue="false" />
 
         <!-- Screen Off animation -->
         <com.android.settings.preferences.SystemSettingListPreference
