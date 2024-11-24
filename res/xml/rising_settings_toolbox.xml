@@ -28,13 +28,6 @@
             lineage:position="top"
             android:fragment="com.rising.settings.fragments.Gestures" />
 
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="navigation"
-            android:icon="@drawable/ic_navigation"
-            android:title="@string/nav_settings_title"
-            android:summary="@string/nav_settings_summary"
-            android:fragment="com.rising.settings.fragments.Navigation" />
-
        <com.android.settings.preferences.ui.AdaptivePreference
             android:key="ai_assistant"
             android:icon="@drawable/ic_risa"
@@ -94,13 +87,6 @@
             android:summary="@string/security_summary"
             android:fragment="com.rising.settings.fragments.Security" />
 
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="spoofing"
-            android:icon="@drawable/ic_key"
-            android:title="@string/spoofing_title"
-            android:summary="@string/spoofing_title_summary"
-            android:fragment="com.rising.settings.fragments.Spoof" />
-            
        <!-- QuickSwitch -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="quickswitch"
