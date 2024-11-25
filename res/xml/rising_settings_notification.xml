@@ -20,10 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
-    <com.android.settingslib.widget.IllustrationPreference
-        android:key="notification_illustration"
-        lineage:lottie_rawRes="@raw/notification_illustration" />
-
     <com.android.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
