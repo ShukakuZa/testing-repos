@@ -21,6 +21,20 @@
     android:title="@string/nav_settings_title">
 
     <PreferenceCategory
+        android:key="navbar_style_category"
+        android:title="@string/navbar_style_category_title">
+
+        <!-- Navbar Style -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="android.theme.customization.navbar"
+            android:icon="@drawable/ic_navbar"
+            android:title="@string/theme_customization_navbar_title"
+            android:summary="@string/theme_customization_navbar_summary"
+            android:fragment="com.rising.settings.fragments.ui.NavbarStyles"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="navbar_layout_category"
         android:title="@string/navbar_layout_category_title">
 

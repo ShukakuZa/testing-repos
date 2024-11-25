@@ -58,14 +58,6 @@
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.rising.settings.fragments.ui.IconShapes"/>
 
-        <!-- Navbar Style -->
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="android.theme.customization.navbar"
-            android:icon="@drawable/ic_navbar"
-            android:title="@string/theme_customization_navbar_title"
-            android:summary="@string/theme_customization_navbar_summary"
-            android:fragment="com.rising.settings.fragments.ui.NavbarStyles"/>
-
         <!-- Signal icon style -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.signal_icon"
