@@ -110,16 +110,20 @@
                 android:clipChildren="true"
                 android:clipToPadding="true"
                 android:clipToOutline="true">   
-            <!-- com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/theme_colors_animation"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:alpha="0.5"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/peach"/-->
+                
+                <ImageView
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_gravity="start | center"
+                    android:layout_marginBottom="21.0dip"
+                    android:background="@drawable/mist_adaptive_shape"
+                    android:backgroundTint="?android:colorAccent"
+                    android:padding="8.0dip"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_themes"
+                    android:tint="?android:colorPrimary" />
+
                  <View
                     android:id="@+id/system_themes_divider"
                     android:layout_width="2dp"
@@ -162,16 +166,21 @@
                 android:clipChildren="true"
                 android:clipToPadding="true"
                 android:clipToOutline="true">
-            <!--com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/toolbox_colors_animation"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:alpha="0.5"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/amber"/-->
+
+                <ImageView
+                    android:layout_width="44.0dip"
+                    android:layout_height="44.0dip"
+                    android:layout_gravity="start | center"
+                    android:layout_marginBottom="21.0dip"
+                    android:background="@drawable/mist_adaptive_shape"
+                    android:backgroundTint="?android:colorAccent"
+                    android:padding="8.0dip"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/ic_system_animation"
+                    android:tint="?android:colorPrimary" />
+
+
                  <View
                     android:id="@+id/toolbox_divider"
                     android:layout_width="2dp"
