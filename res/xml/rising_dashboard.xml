@@ -26,7 +26,7 @@
         <!-- Monet Theme Engine -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="monet_engine"
-            android:icon="@drawable/ic_themes"
+            android:icon="@drawable/ic_monet"
             android:title="@string/monet_title"
             app:position="top"
             android:summary="@string/monet_summary"

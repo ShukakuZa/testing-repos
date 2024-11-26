@@ -121,7 +121,7 @@
                     android:padding="8.0dip"
                     android:layout_marginTop="12dp"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/ic_themes"
+                    android:src="@drawable/ic_mist_themes"
                     android:tint="?android:colorPrimary" />
 
                  <View
