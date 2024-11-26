@@ -1224,6 +1224,7 @@
     <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
 
     <!-- Charging animation -->
+    <string name="general_category">General</string>
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
@@ -2006,4 +2007,5 @@
     <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear</string>
     <string name="clipboard_auto_clear_timeout_summary">Clipboard will be automatically cleared after <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="clipboard_auto_clear_timeout_summary2">Clipboard will not automatically clear</string>
+
 </resources>
