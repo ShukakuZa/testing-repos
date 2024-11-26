@@ -20,12 +20,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/security_title">
 
+        <com.android.settings.preferences.SystemSettingListPreference
+            android:key="clipboard_auto_clear_timeout"
+            app:position="top"
+            android:entries="@array/clipboard_auto_clear_timeout_entries"
+            android:entryValues="@array/clipboard_auto_clear_timeout_values"
+            android:summary="@string/clipboard_auto_clear_timeout_summary"
+            android:title="@string/clipboard_auto_clear_timeout_title"
+            settings:controller="com.rising.settings.fragments.ClipboardAutoClearTimeoutPreferenceController" />
+
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="hide_developer_status_settings"
             android:title="@string/hide_developer_status_title"
             android:summary="@string/hide_developer_status_summary"
-            android:fragment="com.rising.settings.fragments.HideDeveloperStatusSettings"
-            app:position="top" />
+            android:fragment="com.rising.settings.fragments.HideDeveloperStatusSettings" />
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
             android:key="hide_screen_capture_status"
