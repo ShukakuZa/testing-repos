@@ -91,12 +91,14 @@
         android:key="others_ui"
         android:title="@string/category_name_ui_others">
 
-        <com.android.settings.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.wallpaper.blur_enabled"
-            android:title="@string/wallpaper_blur_title"
-            android:summary="@string/wallpaper_blur_summary"
-            android:defaultValue="false"
-            lineage:position="top" />
+        <!-- Wallpaper Settings -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="wallpaper_settings"
+            android:icon="@drawable/ic_settings_ui"
+            android:title="@string/wallpaper_settings_title"
+            android:summary="@string/wallpaper_settings_summary"
+            android:fragment="com.rising.settings.fragments.Wallpaper"
+            lineage:position="top"/>
 
         <!-- Settings dashboard greetings -->
         <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -104,14 +106,6 @@
             android:title="@string/dashboard_greetings_title"
             android:summary="@string/dashboard_greetings_summary"
             android:defaultValue="false" />
-
-        <com.android.settings.preferences.SystemSettingListPreference
-            android:key="search_bar_style"
-            android:title="@string/search_bar_style_title"
-            android:entries="@array/settings_sb_style_entries"
-            android:entryValues="@array/settings_sb_style_values"
-            android:defaultValue="0"
-            android:summary="%s" />
 
         <!-- Screen Off animation -->
         <com.android.settings.preferences.SystemSettingListPreference

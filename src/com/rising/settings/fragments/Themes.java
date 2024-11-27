@@ -28,22 +28,17 @@ import com.android.settingslib.search.SearchIndexable;
 
 import java.util.List;
 
-import com.android.settings.utils.SystemRestartUtils;
 
 @SearchIndexable
-public class Themes extends SettingsPreferenceFragment 
-            implements Preference.OnPreferenceChangeListener {
+public class Themes extends SettingsPreferenceFragment {
 
     public static final String TAG = "Themes";
     
-    private Preference mBlurWpPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.rising_settings_themes);
-        mBlurWpPref = findPreference("persist.sys.wallpaper.blur_enabled");
-        mBlurWpPref.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -51,13 +46,6 @@ public class Themes extends SettingsPreferenceFragment
         return MetricsProto.MetricsEvent.VIEW_UNKNOWN;
     }
     
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mBlurWpPref) {
-          SystemRestartUtils.showSystemUIRestartDialog(getContext());
-          return true;
-        }
-        return false;
-    }
 
     /**
      * For search
