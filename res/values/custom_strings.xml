@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Sidebar -->
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
+
     <!-- Wallpaper blur -->
     <string name="wallpaper_settings_title">Wallpaper Styles</string>
     <string name="wallpaper_settings_summary">Configure wallpaper styles and settings</string>
