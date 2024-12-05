@@ -16,6 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Lockscreen Widgets Styles -->
+    <string name="lockscreen_widgets_style_title">Lockscreen widgets style</string>
+    <string name="lockscreen_widgets_style1">Material Rounded</string>
+    <string name="lockscreen_widgets_style2">Material Square</string>
+    <string name="lockscreen_widgets_style3">Translucent</string>
+
     <!-- Peek Display -->
     <string name="peek_display_notifications_title">Peek display</string>
     <string name="peek_display_notifications_summary">Enable minimal bubble-like lockscreen notification style</string>
