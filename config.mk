@@ -213,7 +213,8 @@ PRODUCT_PACKAGES += \
     FontStoropiaOverlay \
     FontSurferOverlay \
     FontUbuntuOverlay \
-    ClockFontMotorola
+    ClockFontMotorola \
+    FontRookeryOverlay
 
 # Icon Packs
 PRODUCT_PACKAGES += \
