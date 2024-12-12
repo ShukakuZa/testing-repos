@@ -58,6 +58,24 @@
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.rising.settings.fragments.ui.IconShapes"/>
 
+        <!-- Notification Styles -->      
+        <com.android.settings.preferences.SystemSettingListPreference
+             android:key="notification_style"
+             android:title="@string/notif_style_title"
+             android:icon="@drawable/ic_styles_notification"
+             android:entries="@array/notif_style_entries"
+             android:entryValues="@array/notif_style_values"
+             android:summary="%s"
+             android:defaultValue="0" />
+
+        <!-- Settings UI -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="settings_ui"
+            android:icon="@drawable/ic_settings_ui"
+            android:title="@string/settings_ui_title"
+            android:summary="@string/settings_ui_summary"
+            android:fragment="com.rising.settings.fragments.ui.Settings"/>
+
         <!-- Signal icon style -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.signal_icon"
@@ -65,6 +83,16 @@
             android:title="@string/theme_customization_signal_icon_title"
             android:summary="@string/theme_customization_signal_icon_summary"
             android:fragment="com.rising.settings.fragments.ui.SignalIcons"/>
+
+        <!-- Progress Bar Styles -->      
+        <com.android.settings.preferences.SystemSettingListPreference
+             android:key="progress_bar_style"
+             android:title="@string/progress_bar_style_title"
+             android:icon="@drawable/ic_styles_progress"
+             android:entries="@array/progress_bar_style_entries"
+             android:entryValues="@array/progress_bar_style_values"
+             android:summary="%s"
+             android:defaultValue="0" />
 
         <!-- Volume Styles -->      
         <com.android.settings.preferences.SystemSettingListPreference
