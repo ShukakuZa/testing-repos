@@ -421,7 +421,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PGB_BlockyThumb \
     PGB_MinimalThumb \
-    PGB_OutlineThumb
+    PGB_OutlineThumb \
+    PGB_Shishu
 
 # Notification Themes
 PRODUCT_PACKAGES += \
