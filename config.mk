@@ -430,6 +430,13 @@ PRODUCT_PACKAGES += \
     NotifIOS \
     NotifLayers
 
+# Power Menu Themes
+PRODUCT_PACKAGES += \
+    PowerCyberPunk \
+    PowerDuoline \
+    PowerIOS \
+    PowerLayers
+
 # Lawnchair
 ifeq ($(strip $(TARGET_PREBUILT_LAWNCHAIR_LAUNCHER)),true)
 PRODUCT_PACKAGES += \
