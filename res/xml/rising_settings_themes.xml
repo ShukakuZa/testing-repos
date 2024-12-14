@@ -68,14 +68,6 @@
              android:summary="%s"
              android:defaultValue="0" />
 
-        <!-- Settings UI -->
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="settings_ui"
-            android:icon="@drawable/ic_settings_ui"
-            android:title="@string/settings_ui_title"
-            android:summary="@string/settings_ui_summary"
-            android:fragment="com.rising.settings.fragments.ui.Settings"/>
-
         <!-- Signal icon style -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.signal_icon"
@@ -127,12 +119,6 @@
             android:summary="@string/wallpaper_settings_summary"
             android:fragment="com.rising.settings.fragments.Wallpaper"
             lineage:position="top"/>
-
-        <!-- Settings dashboard greetings -->
-        <com.android.settings.preferences.SystemSettingSwitchPreference
-            android:key="dashboard_greetings"
-            android:title="@string/dashboard_greetings_title"
-            android:summary="@string/dashboard_greetings_summary"
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
             android:key="pie_animation_style"
