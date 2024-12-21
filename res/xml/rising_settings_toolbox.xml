@@ -73,6 +73,7 @@
         <com.android.settings.preferences.ui.AdaptivePreference
              android:key="gesture_settings"
              lineage:position="top"
+             android:summary="@string/system_gesture_summary"
              android:title="@string/gesture_preference_title"
              android:icon="@drawable/ic_settings_gestures"
              android:fragment="com.android.settings.gestures.GestureSettings"

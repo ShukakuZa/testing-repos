@@ -2083,5 +2083,6 @@
     <string name="pocket_style">Pocket</string>
     <string name="smart_style">Smart Style</string>
     <string name="system_header">System</string>
-    <string name="extera_header">Extra</string>
+    <string name="extra_header">Extra</string>
+    <string name="system_gesture_summary">Unlock a new level of interaction with gesture control</string>
 </resources>
