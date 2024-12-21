@@ -16,6 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About page -->
+    <string name="battery">Battery</string>
+    <string name="display">Display</string>
+    <string name="storage">Storage</string>
+    <string name="chipset">Processor</string>
+
     <!-- QS Header Clock Styles -->
     <string name="qs_header_clock_style_title">QS Header clock style</string>
     <string name="qs_header_style1">Chip</string>
