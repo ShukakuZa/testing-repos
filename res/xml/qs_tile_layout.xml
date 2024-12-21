@@ -32,6 +32,7 @@
 
     <PreferenceCategory
         android:key="tiles_layout"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/qs_tiles_layout_category">
 
         <com.android.settings.preferences.CustomSeekBarPreference

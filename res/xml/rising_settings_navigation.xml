@@ -22,6 +22,7 @@
 
     <PreferenceCategory
         android:key="navbar_style_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/navbar_style_category_title">
 
         <!-- Navbar Style -->
@@ -37,6 +38,7 @@
 
     <PreferenceCategory
         android:key="navbar_layout_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/navbar_layout_category_title">
 
         <com.android.settings.preferences.SecureSettingSwitchPreference
@@ -51,6 +53,7 @@
 
     <PreferenceCategory
         android:key="navbar_actions_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/navbar_actions_category_title">
 
          <com.android.settings.preferences.SystemSettingListPreference

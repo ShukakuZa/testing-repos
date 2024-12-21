@@ -29,6 +29,7 @@
 
     <PreferenceCategory
         android:key="heads_up"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/notification_heads_up_title">
 
         <com.android.settings.preferences.GlobalSettingSwitchPreference

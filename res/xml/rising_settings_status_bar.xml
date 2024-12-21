@@ -22,6 +22,7 @@
 
     <!-- Status bar icons customizations -->
     <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/status_bar_icons_category_title">
 
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -92,6 +93,7 @@
 
     <!-- Status bar battery customizations -->
     <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/status_bar_battery_category_title" >
 
          <com.android.settings.preferences.SystemSettingListPreference
@@ -126,6 +128,7 @@
 
     <!-- Custom logo -->
     <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/status_bar_logo_title" >
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -155,6 +158,7 @@
 
     <PreferenceCategory
         android:key="statusbar_padding"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/statusbar_padding">
 
         <com.android.settings.preferences.SystemSettingSeekBarPreference
@@ -180,6 +184,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/gestures_title">
 
         <com.android.settings.preferences.SystemSettingSwitchPreference

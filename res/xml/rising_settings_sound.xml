@@ -47,6 +47,7 @@
     <!-- Volume panel -->
     <PreferenceCategory
         android:key="volume_panel"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/volume_panel_category" >
 
         <com.android.settings.preferences.SecureSettingSwitchPreference
@@ -78,6 +79,7 @@
     <!-- In-call feedback -->
     <PreferenceCategory
         android:key="incall_vib_options"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/incall_vibration_category" >
 
         <com.android.settings.preferences.SystemSettingSwitchPreference

@@ -22,6 +22,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_clock_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/lockscreen_clock_category_title">
 
         <!-- Lockscreen Clock Font and styles -->
@@ -37,6 +38,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_widgets"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/lockscreen_widgets_title">
 
         <!-- Lockscreen Widgets -->
@@ -52,6 +54,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_interface_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/lockscreen_interface_category">
 
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -125,6 +128,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_weather_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/lockscreen_weather_category">
 
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -160,6 +164,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_general_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/general_category">
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -173,6 +178,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_gestures_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/gestures_title">
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -186,6 +192,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_fp_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/lockscreen_fp_category_title">
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
@@ -212,6 +219,7 @@
 
     <PreferenceCategory
         android:key="lockscreen_udfps_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/udfps_settings_title">
         
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -238,6 +246,7 @@
     
     <PreferenceCategory
         android:key="lockscreen_misc_category"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/misc_title">
 
         <com.android.settings.preferences.SystemSettingSwitchPreference

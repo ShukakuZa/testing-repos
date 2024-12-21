@@ -22,6 +22,7 @@
 
     <PreferenceCategory
         android:key="gen_ui"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/gen_ui_settings_title">
 
         <!-- Bootanimation style -->
@@ -109,6 +110,7 @@
     
     <PreferenceCategory
         android:key="others_ui"
+        android:layout="@layout/mist_first_header_pref"
         android:title="@string/category_name_ui_others">
 
         <!-- Wallpaper Settings -->
