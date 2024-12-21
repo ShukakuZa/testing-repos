@@ -20,6 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/toolbox_title">
 
+    <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/general_header">
+
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="gestures"
             android:icon="@drawable/ic_mist_gesture"
@@ -56,7 +60,23 @@
             android:summary="@string/always_on_pocket_mode_summary"
             android:dependency="pocket_mode_enabled"
             android:icon="@drawable/ic_pocket"
+            lineage:position="bottom"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/smart_style">
+
+        <!-- Gesture Setting -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+             android:key="gesture_settings"
+             lineage:position="top"
+             android:title="@string/gesture_preference_title"
+             android:icon="@drawable/ic_settings_gestures"
+             android:fragment="com.android.settings.gestures.GestureSettings"
+             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
         <!-- Sidebar -->
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -82,11 +102,19 @@
             android:key="smart_power_off"
             android:title="@string/smart_power_off_title"
             android:icon="@drawable/ic_power"
+            lineage:position="bottom"
             android:summary="@string/smart_power_off_time_summary"
             android:fragment="com.rising.settings.fragments.SmartPowerOff" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/system_header">
+
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="security"
+            lineage:position="top"
             android:icon="@drawable/ic_device_info_security"
             android:title="@string/security_title"
             android:summary="@string/security_summary"
@@ -100,5 +128,7 @@
             android:summary="@string/quickswitch_launcher_summary" 
             android:fragment="com.rising.settings.fragments.QuickSwitch"
             lineage:position="bottom" /> 
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

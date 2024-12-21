@@ -23,6 +23,11 @@
             android:layout="@layout/personalization_dashboard_layout"
             android:selectable="false"/>
 
+    <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/extra_header">
+
+
         <!-- Monet Theme Engine -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="monet_engine"
@@ -84,4 +89,6 @@
         app:position="bottom"
         settings:keywords="@string/keywords_system_update_settings"
         settings:controller="com.android.settings.system.SystemUpdatePreferenceController" />
+
+    </PreferenceCategory>
 </PreferenceScreen> 

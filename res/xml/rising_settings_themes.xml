@@ -23,7 +23,7 @@
     <PreferenceCategory
         android:key="gen_ui"
         android:layout="@layout/mist_first_header_pref"
-        android:title="@string/gen_ui_settings_title">
+        android:title="@string/boot_font">
 
         <!-- Bootanimation style -->
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -41,12 +41,19 @@
             android:title="@string/theme_customization_font_title"
             android:summary="@string/theme_customization_font_summary"
             android:fragment="com.rising.settings.fragments.ui.fonts.FontPickerPreview"
-            />
+            lineage:position="bottom" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/custom_icons">
 
         <!-- Icon pack -->
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.icon_pack"
             android:icon="@drawable/ic_drawing"
+            lineage:position="top"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"
             android:fragment="com.rising.settings.fragments.ui.StatusbarIcons"/>
@@ -55,9 +62,16 @@
         <com.android.settings.preferences.ui.AdaptivePreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:icon="@drawable/ic_shapes"
+            lineage:position="bottom"
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.rising.settings.fragments.ui.IconShapes"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/notification_style">
 
         <!-- Notification Styles -->      
         <com.android.settings.preferences.SystemSettingListPreference
@@ -67,15 +81,8 @@
              android:entries="@array/notif_style_entries"
              android:entryValues="@array/notif_style_values"
              android:summary="%s"
+             lineage:position="top"
              android:defaultValue="0" />
-
-        <!-- Signal icon style -->
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="android.theme.customization.signal_icon"
-            android:icon="@drawable/ic_signal"
-            android:title="@string/theme_customization_signal_icon_title"
-            android:summary="@string/theme_customization_signal_icon_summary"
-            android:fragment="com.rising.settings.fragments.ui.SignalIcons"/>
 
         <!-- Progress Bar Styles -->      
         <com.android.settings.preferences.SystemSettingListPreference
@@ -85,7 +92,23 @@
              android:entries="@array/progress_bar_style_entries"
              android:entryValues="@array/progress_bar_style_values"
              android:summary="%s"
+              lineage:position="bottom"
              android:defaultValue="0" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+        android:layout="@layout/mist_first_header_pref"
+        android:title="@string/system_style">
+
+        <!-- Signal icon style -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="android.theme.customization.signal_icon"
+            android:icon="@drawable/ic_signal"
+            lineage:position="top"
+            android:title="@string/theme_customization_signal_icon_title"
+            android:summary="@string/theme_customization_signal_icon_summary"
+            android:fragment="com.rising.settings.fragments.ui.SignalIcons"/>
 
         <!-- Volume Styles -->      
         <com.android.settings.preferences.SystemSettingListPreference
