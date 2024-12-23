@@ -78,6 +78,12 @@
             android:defaultValue="0" />
 
         <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_dual_tone"
+            android:title="@string/qs_dual_tone_title"
+            android:summary="@string/qs_dual_tone_summary"
+            android:defaultValue="true" />
+
+        <com.android.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_widgets_enabled"
             android:title="@string/qs_widgets_enabled_title"
             android:summary="@string/qs_widgets_enabled_summary"
