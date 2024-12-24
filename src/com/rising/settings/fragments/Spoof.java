@@ -127,7 +127,7 @@ public class Spoof extends SettingsPreferenceFragment implements Preference.OnPr
         mWikiLink = findPreference("wiki_link");
         if (mWikiLink != null) {
             mWikiLink.setOnPreferenceClickListener(preference -> {
-                Uri uri = Uri.parse("https://github.com/RisingTechOSS/risingOS_wiki");
+                Uri uri = Uri.parse("https://github.com/Project-Mist-OS/vendor_Spoofing.git");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
                 return true;
@@ -135,7 +135,7 @@ public class Spoof extends SettingsPreferenceFragment implements Preference.OnPr
         }
         
         mUpdateJsonButton.setOnPreferenceClickListener(preference -> {
-            updatePropertiesFromUrl("https://raw.githubusercontent.com/RisingOS-staging/risingOS_wiki/refs/heads/fifteen/spoofing/PlayIntergrity/pif.json");
+            updatePropertiesFromUrl("https://raw.githubusercontent.com/Project-Mist-OS/vendor_Spoofing/refs/heads/15/PlayIntergrity/pif.json");
             return true;
         });
         
