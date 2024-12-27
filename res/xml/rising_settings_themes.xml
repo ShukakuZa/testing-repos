@@ -84,6 +84,14 @@
              lineage:position="top"
              android:defaultValue="0" />
 
+        <!-- Brightness Styles -->
+        <com.android.settings.preferences.SystemSettingListPreference
+             android:key="android.theme.customization.brightness_slider"
+             android:title="@string/theme_customization_brightness_slider_title"
+             android:summary="@string/theme_customization_brightness_slider_summary"
+             android:icon="@drawable/ic_styles_brightness"
+             android:fragment="com.rising.settings.fragments.ui.BrightnessSlider"/>
+
         <!-- Progress Bar Styles -->      
         <com.android.settings.preferences.SystemSettingListPreference
              android:key="progress_bar_style"
