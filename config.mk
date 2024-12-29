@@ -422,8 +422,14 @@ PRODUCT_PACKAGES += \
     PGB_BlockyThumb \
     PGB_MinimalThumb \
     PGB_OutlineThumb \
-    PGB_Shishu
-
+    PGB_Shishu \
+    PGB_FilledOutlineThumb \
+    PGB_Inline \
+    PGB_Lighty \
+    PGB_NoThumb \
+    PGB_OldschoolThumb \
+    PGB_ThinTrack
+    
 # Notification Themes
 PRODUCT_PACKAGES += \
     NotifCyberPunk \

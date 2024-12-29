@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="?android:colorControlNormal" />
+            <size
+                android:width="24dp"
+                android:height="12dp" />
+            <corners android:radius="24dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/seekbar_thumb_outline_color" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:endColor="?android:colorAccent"
+                android:startColor="?android:colorAccent" />
+            <size
+                android:width="24dp"
+                android:height="12dp" />
+            <corners android:radius="24dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/seekbar_thumb_outline_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:endColor="?android:colorAccent"
+                android:startColor="?android:colorAccent" />
+            <size
+                android:width="24dp"
+                android:height="12dp" />
+            <corners android:radius="24dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/seekbar_thumb_outline_color" />
+        </shape>
+    </item>
+</animated-selector>
