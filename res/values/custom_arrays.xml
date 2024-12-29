@@ -84,6 +84,12 @@
         <item>@string/progress_bar_style2</item>
         <item>@string/progress_bar_style3</item>
         <item>@string/progress_bar_style4</item>
+        <item>@string/progress_bar_style5</item>
+        <item>@string/progress_bar_style6</item>
+        <item>@string/progress_bar_style7</item>
+        <item>@string/progress_bar_style8</item>
+        <item>@string/progress_bar_style9</item>
+        <item>@string/progress_bar_style10</item>
     </string-array>
 
     <string-array name="progress_bar_style_values" translatable="false">
@@ -92,6 +98,12 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 
     <!-- Lockscreen widget style  -->

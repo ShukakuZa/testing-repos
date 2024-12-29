@@ -53,6 +53,12 @@
     <string name="progress_bar_style2">Minimal Thumb</string>
     <string name="progress_bar_style3">Outline Thumb</string>
     <string name="progress_bar_style4">Shishu</string>
+    <string name="progress_bar_style5">Filled Outline Thumb</string>
+    <string name="progress_bar_style6">Inline</string>
+    <string name="progress_bar_style7">Lighty</string>
+    <string name="progress_bar_style8">NoThumb</string>
+    <string name="progress_bar_style9">OldSchool Thumb</string>
+    <string name="progress_bar_style10">Thin Track</string>
 
     <!-- Lockscreen Widgets Styles -->
     <string name="lockscreen_widgets_style_title">Lockscreen widgets style</string>

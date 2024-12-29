@@ -60,7 +60,13 @@ public class Themes extends SettingsPreferenceFragment implements
             "com.android.theme.progressbar.blocky_thumb",
             "com.android.theme.progressbar.minimal_thumb",
             "com.android.theme.progressbar.outline_thumb",
-            "com.android.theme.progressbar.shishu"
+            "com.android.theme.progressbar.shishu",
+            "com.android.theme.progressbar.filled_outline_thumb",
+            "com.android.theme.progressbar.inline",
+            "com.android.theme.progressbar.lighty",
+            "com.android.theme.progressbar.no_thumb",
+            "com.android.theme.progressbar.oldschool_thumb",
+            "com.android.theme.progressbar.thin_track"
     };
 
     private ThemeUtils mThemeUtils;
