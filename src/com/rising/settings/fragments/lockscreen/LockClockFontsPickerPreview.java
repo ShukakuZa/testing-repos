@@ -65,7 +65,7 @@ public class LockClockFontsPickerPreview extends SettingsPreferenceFragment {
     private ThemeUtils mThemeUtils;
     private Handler mHandler = new Handler();
     
-    private final static int[] mCenterClocks = {2, 3, 5, 6, 7, 8, 9};
+    private final static int[] mCenterClocks = {2, 3, 5, 6, 7, 8, 9, 10, 11};
 
     private static final int[] CLOCK_LAYOUTS = {
             R.layout.keyguard_clock_default,
@@ -75,9 +75,12 @@ public class LockClockFontsPickerPreview extends SettingsPreferenceFragment {
             R.layout.keyguard_clock_miui,
             R.layout.keyguard_clock_ide,
             R.layout.keyguard_clock_moto,
-            R.layout.keyguard_clock_ios,
+            R.layout.keyguard_clock_dual,
+            R.layout.keyguard_clock_fluid,
             R.layout.keyguard_clock_hyper,
-            R.layout.keyguard_clock_fluid
+            R.layout.keyguard_clock_ios,
+            R.layout.keyguard_clock_sidebar
+            
     };
 
     @Override
