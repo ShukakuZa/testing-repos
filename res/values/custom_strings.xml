@@ -16,6 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="lockscreen_gif_settings_title">Lockscreen GIF</string>
+    <string name="lockscreen_gif_enable_title">Enable GIF Overlay</string>
+    <string name="lockscreen_gif_enable_summary">Show animated GIF above lockscreen clock</string>
+    <string name="lockscreen_gif_select_title">Select GIF</string>
+    <string name="lockscreen_gif_select_summary">Choose an animated GIF to display</string>
+    <string name="lockscreen_gif_selected">GIF selected</string>
+
     <!-- Power Menu Styles -->
     <string name="powermenu_style_title">Power Menu Style</string>
     <string name="powermenu_style1">Cyberpunk</string>

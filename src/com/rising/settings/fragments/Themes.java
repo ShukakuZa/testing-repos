@@ -102,12 +102,6 @@ public class Themes extends SettingsPreferenceFragment implements
             mThemeUtils = ThemeUtils.getInstance(getContext());
         }
         mThemeUtils.setOverlayEnabled(category, target, target);
-        if (style == 0) {
-            if (restartSystemUI) {
-                SystemRestartUtils.restartSystemUI(getContext());
-            }
-            return;
-        }
         if (style > 0 && style <= overlayPackages.length) {
             mThemeUtils.setOverlayEnabled(category, overlayPackages[style - 1], target);
         }

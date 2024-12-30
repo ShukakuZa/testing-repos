@@ -32,7 +32,15 @@
             android:title="@string/theme_customization_lock_clock_title"
             android:summary="@string/theme_customization_lock_clock_summary"
             android:fragment="com.rising.settings.fragments.lockscreen.LockClockFontsPickerPreview"
-            lineage:position="solo"/>
+            lineage:position="top"/>
+
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="lockscreen_gif_settings"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/lockscreen_gif_settings_title"
+            android:summary="@string/lockscreen_gif_enable_summary"
+            lineage:position="bottom"
+            android:fragment="com.rising.settings.fragments.LockscreenGifSettings" />
 
     </PreferenceCategory>
 
