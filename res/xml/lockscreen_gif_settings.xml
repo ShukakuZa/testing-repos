@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="enable_gif"
+        android:title="@string/lockscreen_gif_enable_title"
+        android:summary="@string/lockscreen_gif_enable_summary" />
+    
+    <Preference
+        android:key="select_gif"
+        android:title="@string/lockscreen_gif_select_title"
+        android:summary="@string/lockscreen_gif_select_summary" />
+</PreferenceScreen>

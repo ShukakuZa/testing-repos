@@ -34,6 +34,14 @@
             android:fragment="com.rising.settings.fragments.lockscreen.LockClockFontsPickerPreview"
             lineage:position="solo"/>
 
+       <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="android.theme.customization.lockscreen_gif"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/lockscreen_gif_settings_title"
+            android:summary="@string/lockscreen_gif_enable_summary"
+            android:fragment="com.rising.settings.fragments.lockscreen.LockscreenGifSettings"
+            lineage:position="solo"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
